@@ -7,6 +7,10 @@ object-detection-deep-learning contains the files and script for an open source 
 buscount.sh is a bash script with 2 commands on it. The first command takes a picture using a camera plugged into the Raspberry Pi, and the second executes the python script for the yolo-object-detection folder. This may need modified if your file path is not the same.
 buscount2.sh is a bash script with 2 commands on it. The first command takes a picture using a camera plugged into the Raspberry Pi, and the second executes the python script for the object-detection-deep-learning folder. This may need modified if your file path is not the same.
 
+ADDITIONAL INSTALLATION STEP (REQUIRED)
+Go to "https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/" and download the open source project, and navigate to "/yolo-objet-detection/yolo-coco". 
+You need to make a copy of the file "yolov3.weights", and move it to "/Transportation-Team-7/camera-object-detection/yolo-objet-detection/yolo-coco".
+
 PYTHON MODULES/LIBRARIES
 This program uses the following python modules/libraries. Next to each name, I've listed instructions for how to easily install them, if needed.
 These methods worked successfully on a Raspberry Pi 4 on the reccomended 32 bit OS. 
